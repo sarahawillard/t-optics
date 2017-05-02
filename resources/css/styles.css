@@ -6,15 +6,12 @@ html, body {
   margin: 0;
   padding: 0;
 }
-
 .container {
   margin: 0 auto;
   max-width: 960px;
   width: 100%
 }
-
 /*------------ Navigation Bar ------------*/
-
 #navbar {
   background-color: cadetblue;
   color: white;
@@ -24,34 +21,27 @@ html, body {
   width: 960px;
   margin: 1rem auto 0;
 }
-
 #navbar nav {
   margin-left: 18rem;
 }
-
 #navbar a {
   margin: 1rem;
   text-decoration: none;
   color: white;
 }
-
 .small-screen-nav {
   display: none;
 }
-
 #logo {
   align-items: center;
   display: flex;
   margin-left: 2rem;
 }
-
 #logo img {
   height: 1.5rem;
   margin-right: 1rem;
 }
-
 /*------------ Banner ------------*/
-
 .banner {
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/tortoiseshell-optics/resources/images/glasses-bg.png");
   background-position: center center;
@@ -61,7 +51,6 @@ html, body {
   display: inline-block;
   width: 100%;
 }
-
 .headline {
   background-color: white;
   padding: 1.5rem 5rem;
@@ -76,62 +65,51 @@ html, body {
   display: inline-block;
   float: right;
 }
-
 /*------------ Specialties ------------*/
-
-.specialties {
+.img-holder {
   display: flex;
   align-items: flex-start;
   justify-content: center;
   height: 8rem;
-  padding-top: 3rem;
+  padding: 3rem 6rem;
+  background-color: blue;
 }
-
-.specialties img {
+.exam {
   width: 3.5rem;
-  height: auto;
+  background-color: purple;
 }
-
-#fittings img {
+.fittings {
   width: 5rem;
+  padding: 0 6rem;
+  background-color: purple;
 }
-
-#delivery img {
+.delivery {
   width: 5rem;
+  background-color: purple;
 }
 
 /*------------ Philosophy/Appointments ------------*/
 
 /*------------ Footer ------------*/
-
 footer {
   margin: 9rem 0 4rem 4rem;
 }
-
 footer img {
   height: 1.5rem;
   margin-right: 1rem;
 }
-
 /*------------ Media Queries ------------*/
 
 @media only screen and (max-width: 470px) {
-
   #logo span {
     display: none;
   }
-
   .small-screen-nav {
 
   }
-
   .large-screen-nav {
     display: none;
   }
-
 }
-
 @media only screen and (max-width: 1024px) {
-
-
 }
