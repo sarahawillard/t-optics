@@ -134,5 +134,35 @@ footer img {
     display: none;
   }
 }
+@media only screen and (max-width: 780px) {
+  .container {
+    width: 100%;
+  }
+  .banner {
+    height: 22rem;
+  }
+  #navbar {
+    display: block;
+    width: 100%;
+    margin: 0 auto 0;
+  }
+  #navbar nav {
+    float: left;
+  }
+  #navbar a {
+    margin-right: .5rem;
+    text-decoration: none;
+    color: white;
+  }
+  .large-screen-nav {
+  }
+  .headline {
+    padding: 0.75rem 4rem;
+    top: 5rem;
+    margin-right: 2rem;
+    font-size: 1.33rem;
+    line-height: 2.5;
+  }
+}
 @media only screen and (max-width: 1024px) {
 }
