@@ -1,0 +1,137 @@
+html, body {
+  font-size: 18px;
+  line-height: 4;
+  font-family: Helvetica;
+  background-color: azure;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 960px;
+  width: 100%
+}
+
+/*------------ Navigation Bar ------------*/
+
+#navbar {
+  background-color: cadetblue;
+  color: white;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 960px;
+  margin: 1rem auto 0;
+}
+
+#navbar nav {
+  margin-left: 18rem;
+}
+
+#navbar a {
+  margin: 1rem;
+  text-decoration: none;
+  color: white;
+}
+
+.small-screen-nav {
+  display: none;
+}
+
+#logo {
+  align-items: center;
+  display: flex;
+  margin-left: 2rem;
+}
+
+#logo img {
+  height: 1.5rem;
+  margin-right: 1rem;
+}
+
+/*------------ Banner ------------*/
+
+.banner {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/tortoiseshell-optics/resources/images/glasses-bg.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30rem;
+  display: inline-block;
+  width: 100%;
+}
+
+.headline {
+  background-color: white;
+  padding: 1.5rem 5rem;
+  top: 11rem;
+  margin-right: -2rem;
+  position: relative;
+  border: 0 none;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.2;
+  align-items: right;
+  display: inline-block;
+  float: right;
+}
+
+/*------------ Specialties ------------*/
+
+.specialties {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  height: 8rem;
+  padding-top: 3rem;
+}
+
+.specialties img {
+  width: 3.5rem;
+  height: auto;
+}
+
+#fittings img {
+  width: 5rem;
+}
+
+#delivery img {
+  width: 5rem;
+}
+
+/*------------ Philosophy/Appointments ------------*/
+
+/*------------ Footer ------------*/
+
+footer {
+  margin: 9rem 0 4rem 4rem;
+}
+
+footer img {
+  height: 1.5rem;
+  margin-right: 1rem;
+}
+
+/*------------ Media Queries ------------*/
+
+@media only screen and (max-width: 470px) {
+
+  #logo span {
+    display: none;
+  }
+
+  .small-screen-nav {
+
+  }
+
+  .large-screen-nav {
+    display: none;
+  }
+
+}
+
+@media only screen and (max-width: 1024px) {
+
+
+}
